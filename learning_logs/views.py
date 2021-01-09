@@ -69,6 +69,7 @@ def new_topic(request):
 def new_entry(request, topic_id):
     """ Add a new entry for a particular topic """
     topic = Topic.objects.get(pk = topic_id)
+    
     # Check if the topic to add an entry belongs to the currently logged in user. 
     check_topic_owner(request, topic_id)
 
