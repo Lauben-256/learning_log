@@ -12,7 +12,7 @@
     {% csrf_token %}
     {% bootstrap_form form %}
 
-    <button name="submit" class="btn btn-primary">register</button>
+    <button name="submit" class="btn btn-primary mt-2">register</button>
     <input type="hidden" name="next" value="{% url 'learning_logs:index' %} " />
 </form>
 {% endblock content %}
