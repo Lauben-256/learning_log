@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponseRedirect, Http404
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
@@ -32,7 +32,7 @@ def topics(request):
 @login_required
 def topic(request, id):
     """ Show a single topic and all its entries. """
-    topic = Topic.objects.get(pk = id)
+    topic = get_object_or_404(Topic, pk = id)
     # Make sure the topic belongs to the current user.
     """
     if topic.owner != request.user:
