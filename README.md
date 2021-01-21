@@ -16,3 +16,5 @@
 > Heroku |
 > CLI |
 > Git |
+> HTML5 |
+> CSS3
