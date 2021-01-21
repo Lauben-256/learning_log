@@ -7,7 +7,7 @@
 
 > Each user can only see topics that were entered by them and can only edit data that belongs to them.
 
-> Finally, the user can login and logout. 
+> Finally, the user can login and logout.
 
 # Technologies used. 
 > Python |
