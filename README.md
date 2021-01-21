@@ -7,9 +7,9 @@
 > Finally, the user can login and logout. 
 
 # Technologies used. 
-> Python
-> Django
-> MySQL
-> Heroku
-> CLI 
-> Git
+> Python |
+> Django |
+> MySQL |
+> Heroku |
+> CLI |
+> Git |
